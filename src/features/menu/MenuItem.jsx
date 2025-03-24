@@ -3,7 +3,7 @@ import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem, getCurrentQtyById } from "../cart/cartSlice";
 import DeleteItem from "../cart/DeleteItem";
-import UpdateItemQty from "../cart/updateItemQty";
+import UpdateItemQty from "../cart/UpdateItemQty";
 
 function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
